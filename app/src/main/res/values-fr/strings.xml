@@ -10,4 +10,7 @@
     <string name="congrats">Félicitations %1$s !</string>
     <string name="encouragement">Courage %1$s, tu feras mieux la prochaine fois !</string>
     <string name="score_format">Score : %1$d/$1$d</string>
+    <string name="textTimer">Temps restant : %1$ds</string>
+    <string name="next">Suivant</string>
+    <string name="endTime">Temps écoulé !</string>
 </resources>

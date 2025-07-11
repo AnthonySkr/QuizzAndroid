@@ -1,6 +1,5 @@
 package com.example.quizz.controller;
 
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -21,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        prefs = getSharedPreferences("quiz_prefs", Context.MODE_PRIVATE);
+        prefs = getSharedPreferences("quiz_prefs", MODE_PRIVATE);
 
         binding.btnStart.setOnClickListener(v -> {
             String name = binding.etName.getText().toString().trim();
@@ -33,5 +32,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        binding = null;
     }
 }

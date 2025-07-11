@@ -2,17 +2,17 @@ package com.example.quizz.model;
 
 import java.util.List;
 public class Question {
-    private String texte;
-    private List<String> reponses;
-    private int indexCorrect;
+    private final String texte;
+    private final List<String> reponses;
+    private final int index;
 
-    public Question(String texte, List<String> reponses, int indexCorrect) {
+    public Question(String texte, List<String> reponses, int index) {
         this.texte = texte;
         this.reponses = reponses;
-        this.indexCorrect = indexCorrect;
+        this.index = index;
     }
 
     public String getTexte() { return texte; }
     public List<String> getReponses() { return reponses; }
-    public int getIndexCorrect() { return indexCorrect; }
+    public int getIndex() { return index; }
 }
