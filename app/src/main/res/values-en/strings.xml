@@ -9,8 +9,16 @@
     <string name="back_home">Accueil</string>
     <string name="congrats">Félicitations %1$s !</string>
     <string name="encouragement">Courage %1$s, tu feras mieux la prochaine fois !</string>
-    <string name="score_format">Score : %1$d/$1$d</string>
+    <string name="score_format">Score : %1$d/%2$d</string>
     <string name="textTimer">Temps restant : %1$ds</string>
     <string name="next">Suivant</string>
     <string name="endTime">Temps écoulé !</string>
+    <string name="goodResponse">Bonne réponse !</string>
+    <string name="badResponse">Mauvaise réponse !</string>
+    <string name="backToMenu">Retour au menu</string>
+    <string name="titleResultsList">Liste des résultats du quiz</string>
+    <string name="question_format">%1$d. %2$s</string>
+    <string name="user_answer_format">Votre réponse : %1$s</string>
+    <string name="correct_answer_format">Bonne réponse : %1$s</string>
+    <string name="no_answer">Aucune réponse</string>
 </resources>

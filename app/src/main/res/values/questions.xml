@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="question_1">Quel est le prenom de l\'empereur français Napoleon ?</string>
+    <string-array name="question_1_answers">
+        <item>Bonaparte</item>
+        <item>Phillipe</item>
+        <item>François</item>
+        <item>autre</item>
+    </string-array>
+
+    <string name="question_2">Quel est la couleur du cheval blanc d\'Henri IV ?</string>
+    <string-array name="question_2_answers">
+        <item>Noir</item>
+        <item>Beige</item>
+        <item>Blanc</item>
+        <item>Mauve</item>
+    </string-array>
+
+    <string name="question_3">Lors d\'une course de vélo, un cycliste double le deuxième ? Il devient…</string>
+    <string-array name="question_3_answers">
+        <item>Premier</item>
+        <item>Deuxième</item>
+        <item>Il tombe donc dernier</item>
+        <item>Cinquièmes</item>
+    </string-array>
+
+    <string name="question_4">Si un avion s’écrase à la frontière entre la France et l’Espagne, où enterre-t-on les
+        survivants ?
+    </string>
+    <string-array name="question_4_answers">
+        <item>Espagne</item>
+        <item>France</item>
+        <item>Comme on veux</item>
+        <item>Nulle part</item>
+    </string-array>
+
+    <string name="question_5">Si tu as une seule allumette et que tu entres dans une pièce contenant une bougie, une
+        lampe à pétrole et un feu de bois, que dois-tu allumer en premier ?
+    </string>
+    <string-array name="question_5_answers">
+        <item>La bougie</item>
+        <item>La lampe a petrole</item>
+        <item>l\'allumette</item>
+        <item>le feux de bois</item>
+    </string-array>
+
+    <string name="question_6">Combien y a-t-il de jours dans une année non bissextile ?</string>
+    <string-array name="question_6_answers">
+        <item>364</item>
+        <item>365</item>
+        <item>366</item>
+        <item>360</item>
+    </string-array>
+
+    <string name="question_7">Lequel de ces personnages historiques est mort avant la naissance des autres ?</string>
+    <string-array name="question_7_answers">
+        <item>Cléopâtre VII</item>
+        <item>Confucius</item>
+        <item>Alexandre le Grand</item>
+        <item>Jules César</item>
+    </string-array>
+</resources>

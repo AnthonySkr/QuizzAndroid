@@ -1,18 +1,24 @@
 package com.example.quizz.model;
 
 import java.util.List;
+
 public class Question {
-    private final String texte;
-    private final List<String> reponses;
-    private final int index;
+    private final String question;
+    private final List<String> answer;
+    private final int correctIndex;
 
-    public Question(String texte, List<String> reponses, int index) {
-        this.texte = texte;
-        this.reponses = reponses;
-        this.index = index;
+    public Question(String question, List<String> answer, int correctIndex) {
+        this.question = question;
+        this.answer = answer;
+        this.correctIndex = correctIndex;
     }
-
-    public String getTexte() { return texte; }
-    public List<String> getReponses() { return reponses; }
-    public int getIndex() { return index; }
+    public int getCorrectAnswerIndex() {
+        return correctIndex;
+    }
+    public String getQuestion() {
+        return this.question;
+    }
+    public List<String> getAnswer() {
+        return this.answer;
+    }
 }
