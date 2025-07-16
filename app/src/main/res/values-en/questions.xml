@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <resources>
+            <string name="question_1">What is the first name of the French emperor Napoleon?</string>
+            <string-array name="question_1_answers">
+                <item>Bonaparte</item>
+                <item>Phillipe</item>
+                <item>François</item>
+                <item>Other</item>
+            </string-array>
+
+            <string name="question_2">What is the color of Henri IV\'s white horse?</string>
+            <string-array name="question_2_answers">
+                <item>Black</item>
+                <item>Beige</item>
+                <item>White</item>
+                <item>Mauve</item>
+            </string-array>
+
+            <string name="question_3">During a bike race, if a cyclist overtakes the second, what position does he become?</string>
+            <string-array name="question_3_answers">
+                <item>First</item>
+                <item>Second</item>
+                <item>So he becomes last</item>
+                <item>Fifth</item>
+            </string-array>
+
+            <string name="question_4">If a plane crashes on the border between France and Spain, where do you bury the survivors?</string>
+            <string-array name="question_4_answers">
+                <item>Spain</item>
+                <item>France</item>
+                <item>Wherever you want</item>
+                <item>Nowhere</item>
+            </string-array>
+
+            <string name="question_5">If you have only one match and enter a room with a candle, an oil lamp, and a wood fire, what should you light first?</string>
+            <string-array name="question_5_answers">
+                <item>The candle</item>
+                <item>The oil lamp</item>
+                <item>The match</item>
+                <item>The wood fire</item>
+            </string-array>
+
+            <string name="question_6">How many days are there in a non-leap year?</string>
+            <string-array name="question_6_answers">
+                <item>364</item>
+                <item>365</item>
+                <item>366</item>
+                <item>360</item>
+            </string-array>
+
+            <string name="question_7">Which of these historical figures died before the birth of the others?</string>
+            <string-array name="question_7_answers">
+                <item>Cleopatra VII</item>
+                <item>Confucius</item>
+                <item>Alexander the Great</item>
+                <item>Julius Caesar</item>
+            </string-array>
+        </resources>
